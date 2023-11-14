@@ -7,7 +7,6 @@ const pigIt = (a) => {
         .split(' ')
         // .filter(x => x.length)
         .map(x => {
-        console.log(x);
         if (!x) {
             return x;
         }
