@@ -9,7 +9,6 @@ export function sumOfIntervals(intervals: [number, number][]) {
   let intervalsLength = intervals.length - 1
 
   let intervalsSorted = intervals.sort((a, b) => a[0] - b[0])
-  console.log(intervalsSorted);
 
   intervalsSorted.forEach((tuple, i) => {
     if (i === 0 && i !== intervalsLength) {
