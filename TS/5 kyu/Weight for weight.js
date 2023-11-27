@@ -6,3 +6,4 @@ function orderWeight(str) {
 }
 exports.orderWeight = orderWeight;
 console.log(orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123"));
+//# sourceMappingURL=Weight%20for%20weight.js.map

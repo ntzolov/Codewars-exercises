@@ -14,3 +14,4 @@ function humanReadable(seconds) {
 }
 exports.humanReadable = humanReadable;
 console.log(humanReadable(359999));
+//# sourceMappingURL=Human%20readable%20time.js.map

@@ -28,3 +28,4 @@ function nextBigger(n) {
 }
 exports.nextBigger = nextBigger;
 console.log(nextBigger(513));
+//# sourceMappingURL=Next%20bigger%20number%20with%20the%20same%20digits.js.map

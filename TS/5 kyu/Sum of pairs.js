@@ -11,3 +11,4 @@ function sumPairs(ints, s) {
 }
 exports.sumPairs = sumPairs;
 console.log(sumPairs([4, 4, 3, 3, 4], 6));
+//# sourceMappingURL=Sum%20of%20pairs.js.map

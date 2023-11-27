@@ -24,3 +24,4 @@ const pigIt = (a) => {
 };
 exports.pigIt = pigIt;
 console.log((0, exports.pigIt)('OoZXPisciLUNj         jEaEyfGLKCYxvto aiEYFFTqIQ IELDvTMev WjO'));
+//# sourceMappingURL=Simple%20pig%20latin.js.map

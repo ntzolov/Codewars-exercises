@@ -15,3 +15,4 @@ function accum(s) {
 }
 exports.accum = accum;
 console.log(accum('tzolov'));
+//# sourceMappingURL=Mumbling.js.map
