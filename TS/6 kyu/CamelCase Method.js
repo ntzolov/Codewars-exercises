@@ -10,7 +10,7 @@ function camelCase(str) {
                 result += word[i].toUpperCase();
                 continue;
             }
-            result += word[i];
+            result += word[i].toLowerCase();
         }
         return result;
     });

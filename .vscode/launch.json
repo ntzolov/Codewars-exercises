@@ -8,13 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\TS\\6 kyu\\CamelCase Method.ts",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ]
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\TS\\6 kyu\\Make the deadfish swim.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }
