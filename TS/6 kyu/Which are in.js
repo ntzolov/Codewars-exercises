@@ -15,7 +15,7 @@ function inArray(a1, a2) {
             result.push(word);
         }
     });
-    return result;
+    return result.sort();
 }
 exports.inArray = inArray;
 console.log(inArray(["arp", "live", "strong"], ["lively", "alive", "harp", "sharp", "armstrong"]));

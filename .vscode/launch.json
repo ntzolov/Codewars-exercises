@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\TS\\4 kyu\\Sum of intervals.ts",
+      "program": "${workspaceFolder}\\TS\\6 kyu\\CamelCase Method.ts",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
       ]
