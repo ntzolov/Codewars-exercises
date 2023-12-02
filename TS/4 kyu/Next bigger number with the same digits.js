@@ -1,8 +1,5 @@
-"use strict";
 // IMPORTANT - Works only with small numbers if you don't have a quantum computer... :)
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.nextBigger = void 0;
-function nextBigger(n) {
+export function nextBigger(n) {
     let digits = String(n);
     let digitsArray = digits.split('');
     let result = -1;
@@ -26,6 +23,5 @@ function nextBigger(n) {
     }
     return result;
 }
-exports.nextBigger = nextBigger;
 console.log(nextBigger(513));
 //# sourceMappingURL=Next%20bigger%20number%20with%20the%20same%20digits.js.map

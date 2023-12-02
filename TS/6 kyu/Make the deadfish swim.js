@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.parse = void 0;
-function parse(data) {
+export function parse(data) {
     let result = [];
     const commands = data.split('');
     let currNum = 0;
@@ -21,6 +18,5 @@ function parse(data) {
     }
     return result;
 }
-exports.parse = parse;
 console.log(parse('iiisdoso'));
 //# sourceMappingURL=Make%20the%20deadfish%20swim.js.map

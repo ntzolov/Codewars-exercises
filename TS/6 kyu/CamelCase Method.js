@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.camelCase = void 0;
-function camelCase(str) {
+export function camelCase(str) {
     let words = str.split(' ');
     words = words.map(word => {
         let result = '';
@@ -16,6 +13,5 @@ function camelCase(str) {
     });
     return words.join('');
 }
-exports.camelCase = camelCase;
 console.log(camelCase('camel case word'));
 //# sourceMappingURL=CamelCase%20Method.js.map

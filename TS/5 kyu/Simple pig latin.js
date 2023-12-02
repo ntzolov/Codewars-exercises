@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.pigIt = void 0;
-const pigIt = (a) => {
+export const pigIt = (a) => {
     const punctuation = [',', '.', '?', '!', ' '];
     return a
         .split(' ')
@@ -22,6 +19,5 @@ const pigIt = (a) => {
     })
         .join(' ');
 };
-exports.pigIt = pigIt;
-console.log((0, exports.pigIt)('OoZXPisciLUNj         jEaEyfGLKCYxvto aiEYFFTqIQ IELDvTMev WjO'));
+console.log(pigIt('OoZXPisciLUNj         jEaEyfGLKCYxvto aiEYFFTqIQ IELDvTMev WjO'));
 //# sourceMappingURL=Simple%20pig%20latin.js.map

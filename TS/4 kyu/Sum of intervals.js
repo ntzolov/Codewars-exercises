@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.sumOfIntervals = void 0;
-function sumOfIntervals(intervals) {
+export function sumOfIntervals(intervals) {
     let leftIndex = 0;
     let rightIndex = 0;
     let currLeftIndex = 0;
@@ -44,7 +41,6 @@ function sumOfIntervals(intervals) {
     });
     return total;
 }
-exports.sumOfIntervals = sumOfIntervals;
 console.log(sumOfIntervals([
     [-110, 323], [-101, 6],
     [484, 486], [-375, 45],

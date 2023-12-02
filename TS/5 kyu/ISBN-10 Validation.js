@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.validISBN10 = void 0;
-function validISBN10(isbn) {
+export function validISBN10(isbn) {
     const isInvalid = new RegExp(/[^0123456789X]/g);
     const values = isbn.split('');
     if (isInvalid.test(isbn) || values.length !== 10) {
@@ -20,6 +17,5 @@ function validISBN10(isbn) {
     });
     return Boolean(!(total % 11));
 }
-exports.validISBN10 = validISBN10;
 validISBN10('X123456788');
 //# sourceMappingURL=ISBN-10%20Validation.js.map

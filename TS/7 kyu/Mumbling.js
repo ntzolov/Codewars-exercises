@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.accum = void 0;
-function accum(s) {
+export function accum(s) {
     const result = [];
     for (let i = 0; i < s.length; i++) {
         if (i === 0) {
@@ -13,6 +10,5 @@ function accum(s) {
     }
     return result.join('');
 }
-exports.accum = accum;
 console.log(accum('tzolov'));
 //# sourceMappingURL=Mumbling.js.map

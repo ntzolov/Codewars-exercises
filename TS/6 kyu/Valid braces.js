@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.validBraces = void 0;
-function validBraces(braces) {
+export function validBraces(braces) {
     let openBraces = [];
     let result = true;
     for (let letter of braces) {
@@ -41,6 +38,5 @@ function validBraces(braces) {
     }
     return result;
 }
-exports.validBraces = validBraces;
 console.log(validBraces(''));
 //# sourceMappingURL=Valid%20braces.js.map
